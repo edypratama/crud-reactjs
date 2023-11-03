@@ -1,0 +1,33 @@
+# nodemon index
+
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/1
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Milky Regal",
+    "email": "regal34@gmail.com",
+    "phone": "088567843217",
+    "address": "Bali, Badung, Kuta Utara"
+}
+
+
+###
+PATCH  http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+    "name": "Putu Bagus Genjing",
+    "email": "putu123@gmail.com",
+    "phone": "088567732909",
+    "address": "Bali, Badung, Mengwi"
+}
+
+###
+DELETE  http://localhost:5000/users/2
+

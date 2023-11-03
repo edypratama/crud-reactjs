@@ -1,0 +1,33 @@
+.ant-table .ant-table-container .ant-table-content table thead.ant-table-thead .ant-table-cell {
+    background-color: #002766;
+    color: #ffff;
+}
+
+.ant-table .ant-table-container .ant-table-content table tbody.ant-table-tbody{
+    background-color: #ffffff;
+}
+
+.ant-table .ant-table-container .ant-table-content table tbody.ant-table-tbody .ant-table-row .ant-table-cell .ant-space .ant-space-item .delete:hover{
+    color: #ffffff;
+    background-color: #ff4d4f;
+    border: 1px solid #660000;
+}
+
+.ant-table .ant-table-container .ant-table-content table tbody.ant-table-tbody .ant-table-row .ant-table-cell .ant-space .ant-space-item .edit:hover{
+    color: #ffffff;
+    background-color: rgb(59 130 246 / var(--tw-text-opacity));;
+    border: 1px solid #003c66;
+}
+
+.user-table .create-btn button.ant-btn{
+    color: #ffffff;
+    background-color: #002766;
+    border: 1px solid #ffffff;
+}
+
+.user-table .create-btn button.ant-btn:hover{
+    color: #002766;
+    background-color: #ffffff;
+    border: 1px solid #002766;
+    box-sizing: border-box;
+}
